@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--<import resource="*.xml"/>-->
+<!--之所以不自动导入，是因为都在同一包中，不导入自己-->
+    <import resource="annotation.xml"/>
+    <import resource="jdbc.xml"/>
+    <import resource="mybatis.xml"/>
+    <import resource="property.xml"/>
+    <import resource="transaction.xml"/>
+
+</beans>
